@@ -8,5 +8,12 @@
 
 import Foundation
 
-println("Hello, World!")
+var stack = Stack<String>()
+stack.push("Mark")
+stack.push("Merry")
+stack.push("Geroge")
+
+stack.pop()
+
+println("stack top is \(stack.peek())")
 
