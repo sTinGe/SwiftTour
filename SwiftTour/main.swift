@@ -8,12 +8,9 @@
 
 import Foundation
 
-var stack = Stack<String>()
-stack.push("Mark")
-stack.push("Merry")
-stack.push("Geroge")
+var queue = Queue<Int>()
 
-stack.pop()
-
-println("stack top is \(stack.peek())")
-
+queue.inqueue(12)
+queue.inqueue(13)
+queue.dequeue()
+queue.inqueue(20)
